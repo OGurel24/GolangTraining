@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+{{ range $index, $value := . }}
+    <h1>{{$value.Name}}</h1>
+    <p1>{{$value.Age}}, {{$value.Position}}, {{$value.IsImportant}}</p1>
+{{ end }}
+
+</body>
+</html>
